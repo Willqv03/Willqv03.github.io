@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Etiquetas HTML</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+
+  <body>
+    <center>
+      <h2>
+        Lab. Programacion III INF-517 <br>
+        Prof. Radhames Silverio Gonzalez <br>
+      </h2>
+    </center>
+
+    <p>
+      <br>
+      <strong>Sustentante:</strong> Willy Quezada Vasquez <br>
+      <strong>Matricula:</strong> 100615312 <br>
+      <strong>Seccion:</strong> 01 <br>
+    </p>  
+      
+    <center>
+      <h1>
+        Lista de Etiquetas HTML con Ejemplos
+      </h1>
+    </center>
+
+    <hr><p>
+      Las etiquetas HTML son indicadores del lenguaje de marcas de hipertexto (o HTML, por sus siglas en inglés) 
+      que le dan formato y estructura al contenido de las páginas web.
+    </p><hr>
+
+    <h2>1. Lista de Etiquetas Basicas HTML</h2>
+    <p>A continuacion etiquetas basicas utilizadas en HTML5:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;!DOCTYPE></td>
+          <td>Define el tipo de documento</td>
+          <td><pre>&lt;!DOCTYPE html></pre></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;html></td>
+          <td>Representa la raiz de un documento HTML</td>
+          <td>
+<pre>
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;!--Contenido del head-->
+  &lt;/head>
+  &lt;body>
+    &lt;!--Contenido del body-->
+  &lt;/body>
+&lt;/html>
+</pre>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;head></td>
+          <td>
+            Define el encabezado de un documento HTML que contiene datos no visibles como metadatos y otra información.
+          </td>
+          <td>
+<pre>
+&lt;head>
+  &lt;!--Contenido del head-->
+&lt;/head>
+</pre>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;body></td>
+          <td>Define el cuerpo de una pagina web y contiene todo lo que se ve en esta</td>
+          <td>
+<pre>
+&lt;body>
+  &lt;!--Contenido del body-->
+&lt;/body>
+</pre>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;h1> - &lt;h6></td>
+          <td>
+            Son un grupo de elementos de encabezado. Estos describe brevemente el tema de la seccion que representa (segun su tamaño) 
+          </td>
+          <td>
+<pre>
+&lt;h1> Este es el encabezado &lt;/h1>
+&lt;h2> Este es el encabezado &lt;/h2>
+&lt;h3> Este es el encabezado &lt;/h3>
+&lt;h4> Este es el encabezado &lt;/h4>
+&lt;h5> Este es el encabezado &lt;/h5>
+&lt;h6> Este es el encabezado &lt;/h6>
+</pre>
+          </td>
+          <td>
+            <h1> Este es el encabezado </h1> 
+            <h2> Este es el encabezado </h2> 
+            <h3> Este es el encabezado </h3> 
+            <h4> Este es el encabezado </h4> 
+            <h5> Este es el encabezado </h5> 
+            <h6> Este es el encabezado </h6>
+          </td>
+        </tr>
+        <td id="etiquetaName" >&lt;p></td>
+        <td>
+          Representa un parrafo y se utiliza para separar bloques de texto en una pagina
+        </td>
+        <td><pre>&lt;p>Esto es un parrafo&lt;/p></pre></td>
+        <td><p>Esto es un parrafo</p></td>
+        <tr>
+          <td id="etiquetaName">&lt;!--...--></td>
+          <td>
+            Se utiliza para escribir comentarios en documentos HTML
+          </td>
+          <td><pre>&lt;!-- Esto es un comentario --></pre></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;br></td>
+          <td>
+            Define un salto de linea
+          </td>
+          <td><pre>hola &lt;br> me llamo Willy</pre></td>
+          <td>hola <br> me llamo Willy</td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;hr></td>
+          <td>
+            Esto crea una linea horizontal en la pagina
+          </td>
+          <td><pre>Titulo &lt;tr></pre></td>
+          <td>Titulo <hr></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>2. Etiquetas de Formato</h2>
+    <p>
+      A continuacion una lista de etiquetas de formato. Estan nos ayudan a dar formato a nuestro texto sin utilizar CSS:
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th width = "350">Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;b></td>
+          <td>Se utiliza para colocar el texto en negrita</td>
+          <td><pre>&lt;b>Hola&lt;/b></pre></td>
+          <td><b>Hola</b></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;strong></td>
+          <td>
+            Se usa para marcar con especial énfasis las partes más importantes de un texto
+          </td>
+          <td>
+<pre>
+&lt;p>La manzana o poma​ es el fruto comestible 
+de la especie Malus domestica, el manzano común.
+&lt;strong> Es una fruta pomácea de forma redonda 
+y sabor muy dulce, dependiendo de la variedad
+&lt;/strong>.&lt;/p>
+</pre>
+          </td>
+          <td>
+            <p>
+              La manzana o poma​ es el fruto comestible 
+              de la especie Malus domestica, el manzano común.
+              <strong> Es una fruta pomácea de forma redonda y 
+              sabor muy dulce, dependiendo de la variedad</strong>.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;i></td>
+          <td>
+            Muestra el texto marcado con un estilo en cursiva
+          </td>
+          <td>&lt;i>texto en cursiva&lt;/i></td>
+          <td><i>texto en cursiva</i></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;em></td>
+          <td>
+            Se usa para marcar con énfasis las partes importantes de un texto
+          </td>
+          <td>&lt;p> <br>&nbsp Hoy es un gran dia.&lt;em>Feliz navidad! &lt;/em><br>&lt;/p></td>
+          <td><p>Hoy es un gran dia. <em>Feliz navidad!</em></p></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;u></td>
+          <td>
+            Se encarga de subrayar el texto
+          </td>
+          <td>
+            &lt;u>Texto subrayado&lt;/u>
+          </td>
+          <td><u>Texto subrayado</u></td>
+        </tr>
+        <td id="etiquetaName" >&lt;sup></td>
+        <td>
+          Define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y generalmente más pequeño, que el tramo principal del texto, es decir, en superíndice.
+        </td>
+        <td>5&lt;sup>2&lt;/sup> = 25</td>
+        <td>5<sup>2</sup> = 25</td>
+        <tr>
+          <td id="etiquetaName">&lt;sub></td>
+          <td>
+            Define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice.
+          </td>
+          <td>El agua (H&lt;sub>2&lt;/sub>O)</td>
+          <td>El agua (H<sub>2</sub>O)</td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;pre></td>
+          <td>
+            Representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo. Los espacios dentro de este elemento también son mostrados como están escritos.
+          </td>
+          <td>
+<pre>
+&lt;pre>
+  Hoy iré al mercado y compraré:
+    - lechuga
+    - tomate 
+    - repollo
+    - papas 
+&lt;/pre>
+</pre>
+          </td>
+          <td>
+<pre>
+Hoy iré al mercado y compraré:
+  - lechuga
+  - tomate
+  - repollo
+  - papas
+</pre>
+          </td>  
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;small></td>
+          <td>
+            Hace el tamaño del texto una talla más pequeña que el tamaño mínimo de fuente del navegador. este elemento es reutilizado para representar comentarios laterales y letra pequeña, incluyendo derechos de autor y texto legal, independientemente de su estilo de presentación
+          </td>
+          <td>Texto normal &lt;hr> &lt;small>Aplicando etiqueta small&lt;small></td>
+          <td>Texto normal <hr> <small>Aplicando etiqueta small<small></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;abbr></td>
+          <td>
+            Representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe contener la descripción completa y nada más
+          </td>
+          <td>
+            &lt;p>Sé &lt;abbr title="Hypertext Markup Language"> HTML &lt;/abbr> &lt;/p>
+          </td>
+          <td>
+            <p>Sé <abbr title="Hypertext Markup Language">HTML</abbr></p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;code></td>
+          <td>
+            Se utiliza para representa el codigo de un programa
+          </td>
+          <td>
+            &lt;code> <br> &nbsp
+              #include main() { for(;;) { printf ("Hello World!\n"); } } <br>
+            &lt;/code>
+          </td>
+          <td>
+            <code>
+              #include main() { for(;;) { printf ("Hello World!\n"); } }
+            </code>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;kbd></td>
+          <td>
+            Marca el texto que debe introducir el usuario
+          </td>
+          <td>
+            &lt;p>Si está conforme escriba &lt;kbd>sí&lt;/kbd>. Si no, pulse &lt;kbd>esc&lt;/kbd> &lt;/p>
+          </td>
+          <td>
+            <p>Si está conforme escriba <kbd>sí</kbd>. Si no, pulse <kbd>esc</kbd></p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;del></td>
+          <td>
+            Marca las partes de un texto o documento que han sido suprimidas o sustituidas.
+          </td>
+
+          <td> &lt;p>El agua es insípida &lt;del>y húmeda,&lt;/del> inodora e incolora.&lt;/p></td>
+
+          <td><p>El agua es insípida <del>y húmeda,</del> inodora e incolora.</p></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;ins></td>
+          <td>
+            Marca las partes de un texto que han sido añadidos al documento.
+          </td>
+          <td>&lt;p>El agua es insipida, &lt;ins>inodora e incolora.&lt;/ins> &lt;/p></td>
+          <td><p> El agua es insipida, <ins>inodora e incolora.</ins> </p></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;mark></td>
+          <td>
+            Se utiliza para resaltar un texto en específico
+          </td>
+          <td>&lt;mark>Texto marcado&lt;/mark></td>
+          <td><mark>Texto marcado</mark></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;blockquote></td>
+          <td>
+            Crea citas en bloque, marca las citas a otros autores o documentos.
+          </td>
+          <td>
+            &lt;blockquote> <br>
+            &lt;p>La manzana o poma​ es el fruto comestible de la especie Malus domestica, el manzano común.&lt;strong> Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad&lt;/strong>.&lt;/p> <br>
+            &lt;/blockquote>
+          </td>
+          <td>
+            <blockquote>
+              <p>
+                La manzana o poma​ es el fruto comestible de la especie Malus domestica, el manzano común.<strong> Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad</strong>.
+              </p>
+            </blockquote>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;s></td>
+          <td>
+            Muestra el texto tachado con una linea horizontal.
+          </td>
+          <td>&lt;s>Manzana Roja&lt;/s></td>
+          <td><s>Manzana Roja</s></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;address></td>
+          <td>
+            Se utiliza para representar la direccion o contacto de un usuario en un sitio web
+          </td>
+          <td>
+            &lt;address> <br>
+            Banreservas<br>
+            Phone: 809 960 2121 <br>
+            contacto@banreservas.com
+            Twitter: @BanreservasRD          
+            &lt;/address></td>
+          <td>
+            <address>
+              Banreservas <br>
+              Phone: 809 960 2121 <br>
+              contacto@banreservas.com <br>
+              Twitter: @BanreservasRD
+            </address>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;cite></td>
+          <td>
+            Marca una referencia a una fuente, o el autor de un texto citado
+          </td>
+          <td>
+            &lt;p>
+            Sin embargo, &lt;cite>Newton&lt;cite> dijo: “La fuerza con que se atraen dos objetos es proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia que los separa”
+            &lt;/p>
+          </td>
+          <td>
+            <p> 
+              Sin embargo, <cite>Newton</cite> dijo: “La fuerza con que se atraen dos objetos es proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia que los separa” 
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;dfn></td>
+          <td>
+            Sirve para marcar el término que se quiere definir.
+          </td>
+          <td>
+            &lt;p>La &lt;dfn>manzana&lt;/dfn> es el fruto comestible de la especie Malus domestica, el manzano común.&lt;/p>
+          </td>
+          <td>
+            <p>
+              La <dfn>manzana</dfn> es el fruto comestible de la especie Malus domestica, el manzano común.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;meter></td>
+          <td>
+            Es utilizada para representar una escala con un determinado rango y valor.
+          </td>
+          <td>
+            La velocidad del coche alcanzó los 100kmph en la autopista &lt;meter min="60" max="120" low="46" high="90" value="100">&lt;/meter>
+          </td>
+          <td>
+            La velocidad del coche alcanzó los 100kmph en la autopista <meter min="60" max="120" low="46" high="90" value="100"></meter>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;progress></td>
+          <td>
+            Se utiliza para visualizar el progreso de una tarea
+          </td>
+          <td>
+            Cargando... &lt;br> <br>
+            &lt;progress max="100" value="70"> 70% &lt;progress>
+          </td>
+          <td>
+            Cargando... <br>
+            <progress max="100" value="70"> 70% </progress>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;q></td>
+          <td>
+            Indica que el texto adjunto es una cita corta en línea.
+          </td>
+          <td>
+            &lt;q cite="https://oregoom.com/html/p/"> la etiqueta &lt;p> es una pieza fundamental en la creación de contenido estructurado y significativo en una página web. &lt;/q>
+          </td>
+          <td>
+            <q cite="https://oregoom.com/html/p/">la etiqueta &lt;p> es una pieza fundamental en la creación de contenido estructurado y significativo en una página web. </q>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;samp></td>
+          <td>
+            Se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador.
+          </td>
+          <td>
+            &lt;samp>Numero fuera de rango... &lt;br>Intentelo de nuevo&lt;/samp>
+          </td>
+          <td>
+            <samp>Numero fuera de rango... <br>Intentelo de nuevo</samp>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;template></td>
+          <td>
+            Es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript.
+          </td>
+          <td>&lt;template id="productrow">&lt;/template></td>
+          
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;time></td>
+          <td>
+            Representa un periodo específico en el tiempo
+          </td>
+          <td>
+            La clase inicia a las &lt;time datetime="8:00">20:00&lt;/time>
+          </td>
+          <td>
+            La clase inicia a las <time datetime="8:00">8:00</time>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;var></td>
+          <td>
+            Marca variables de programas y similares
+          </td>
+          <td>
+            el bucle no se detendrá hasta que &lt;var>Faltan&lt;/var> sea igual a 0.
+          </td>
+          <td>
+            el bucle no se detendrá hasta que <var>Faltan</var> sea igual a 0.
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+    <h2>3. Etiquetas de Imagen</h2>
+    <p>La siguiente lista de etiquetas HTML es utilizada para imagenes:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;img></td>
+          <td>Representa una imagen en el documento.</td>
+          <td>&lt;img src="Ejemplos/bosque.jpg"></td>
+          <td><img src="Ejemplos/bosque.jpg" width="200" height="113"></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;figure></td>
+          <td>
+            Representa contenido independiente, a menudo con un título. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal.
+          </td>
+          <td>
+            &lt;figure> <br>
+            &lt;img src="Ejemplos/bosque.jpg" width="200" height="113""> <br>
+            &lt;figcaption>Bosque de otoño.&lt;/figcaption> <br>
+            &lt;/figure>
+          </td>
+          <td>
+            <figure>
+              <img src="Ejemplos/bosque.jpg" width="200" height="113"">
+              <figcaption>Bosque de otoño.</figcaption>
+            </figure>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;figcaption></td>
+          <td>
+            Representa un subtítulo o leyenda asociado al contenido del elemento padre &lt;figure>, pudiendo ser colocado como primer o último hijo. Es importante destacar que el elemento &lt;figcaption> es opcional.
+          </td>
+          <td>
+            &lt;figure> <br>
+            &lt;img src="Ejemplos/Montjuic.jpg" width="200" height="113""> <br>
+            &lt;figcaption>Montjuïc National Palace.&lt;/figcaption> <br>
+            &lt;/figure>
+          </td>
+          <td>
+            <figure>
+              <img src="Ejemplos/Montjuic.jpg" width="200" height="113">
+              <figcaption>Montjuïc National Palace.</figcaption>
+            </figure>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;picture></td>
+          <td>
+            Es un contenedor usado para especificar múltiples elementos &lt;source> y un elemento &lt;img> contenido en él para proveer versiones de una imagen para diferentes escenarios de dispositivos.
+          </td>
+          <td>
+            &lt;picture> <br>
+              &lt;source media="(max-width:650px)" srcset="Ejemplos/bosque.jpg"> <br>
+              &lt;source media="(max-width:850px)" srcset="Ejemplos/Montjuic.jpg"> <br>
+              &lt;img src="Ejemplos/paisaje.jpg"> <br>
+            &lt;/picture>
+          </td>
+          <td>
+            <picture>
+              <source media="(max-width:650px)" srcset="Ejemplos/bosque.jpg">
+              <source media="(max-width:850px)" srcset="Ejemplos/Montjuic.jpg">
+              <img src="Ejemplos/paisaje.jpg">
+            </picture>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;area></td>
+          <td>
+            Sirve para crear las distintas secciones en las que se puede dividir un mapas de imágenes en el cliente.
+          </td>
+          <td>
+            &lt;img src="Ejemplos/facebookgoogle.jpg" usemap="#area"> <br>
+            &lt;map name="area"> <br>
+            &lt;area shape="rect" coords="23,35,66,67" href="https://ads.google.com/" alt="GoogleAds"> <br>
+            &lt;area shape="rect" coords="137,35,178,68" href="https://www.facebook.com/business/ads" alt="FacebookAds"> <br>
+            &lt;/map>
+          </td>
+          <td>
+            <img src="Ejemplos/facebookgoogle.jpg" usemap="#area">
+            <map name="area">
+                <area shape="rect" coords="23,35,66,67" href="https://ads.google.com/" alt="GoogleAds">
+                <area shape="rect" coords="137,35,178,68" href="https://www.facebook.com/business/ads" alt="FacebookAds">
+            </map>
+          </td>
+        </tr>
+        <td id="etiquetaName" >&lt;map></td>
+        <td>
+          Se utiliza para definir elementos de área para crear una estructura en la que se puede hacer clic similar a un mapa dentro de una imagen.
+        </td>
+        <td>
+          &lt;img src="" alt=""><br>
+          &lt;map name=""><br>
+          &lt;area shape="" coords="" href="" alt=""><br>
+          &lt;/map>
+        </td>
+        <td></td>
+        <tr>
+          <td id="etiquetaName">&lt;canvas></td>
+          <td>
+            Se utiliza para dibujar gráficos a través de secuencias de comandos (por lo general JavaScript ).
+          </td>
+          <td>
+<pre>
+&lt;canvas id="myCanvas">&lt;/canvas>
+&lt;style>canvas { border: 1px solid black }&lt;/style>
+&lt;script>
+  const canvas = document.getElementById("myCanvas");
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "yellow";
+  ctx.fillRect(20, 20, 50, 50);
+  ctx.fillRect(80, 20, 50, 50);
+  ctx.fillStyle = "red";
+  ctx.fillRect(50, 80, 50, 50);
+&lt;/script>
+</pre>
+          </td>
+          <td>
+            <canvas id="myCanvas"></canvas>
+            <style>canvas { border: 1px solid black }</style>
+            <script>
+              const canvas = document.getElementById("myCanvas");
+              const ctx = canvas.getContext("2d");
+              ctx.fillStyle = "yellow";
+              ctx.fillRect(20, 20, 50, 50);
+              ctx.fillRect(80, 20, 50, 50);
+              ctx.fillStyle = "red";
+              ctx.fillRect(50, 80, 50, 50);
+            </script>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;svg></td>
+          <td>
+            Se utiliza para crear diferentes formas geométricas como círculos, rectángulos, líneas, trayectorias curvas, imágenes vectoriales, etc
+          </td>
+          <td>
+<pre>
+&lt;svg width="200" height="100" viewBox="0 0 200 100">
+  &lt;rect width="100" height="50" x="0" y="0" fill="#003777" />
+  &lt;rect width="100" height="50" x="0" y ="50" fill="#f01e2c" />
+  &lt;rect width="100" height="50" x="100" y="0" fill="#f01e2c" />
+  &lt;rect width="100" height="50" x="100" y="50" fill="#003777" />
+  &lt;rect width="200" height="10" x="0" y="45" fill="white" />
+  &lt;rect width="10" height="100" x="95" y="0" fill="white" />
+&lt;/svg>
+</pre>
+          </td>
+          <td>  
+            <svg width="200" height="100" viewBox="0 0 200 100">
+              <rect width="100" height="50" x="0" y="0" fill="#003777" />
+              <rect width="100" height="50" x="0" y ="50" fill="#f01e2c" />
+              <rect width="100" height="50" x="100" y="0" fill="#f01e2c" />
+              <rect width="100" height="50" x="100" y="50" fill="#003777" />
+              <rect width="200" height="10" x="0" y="45" fill="white" />
+              <rect width="10" height="100" x="95" y="0" fill="white" />
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. Etiquetas de Enlace o Navegacion</h2>
+    <p>Estas etiquetas HTML se utilizan para crear cualquier hipervínculo, definir conexiones con otros recursos o crear un menú de navegación.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;a></td>
+          <td>Define un hipervínculo para conectarse a otras páginas web</td>
+          <td><pre>&lt;a href="https://google.com">Google&lt;/a></pre></td>
+          <td><a href="https://google.com">Google</a></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;link></td>
+          <td>Especifica la relación entre el documento actual y un recurso externo.</td>
+          <td><pre>&lt;link href="style.css" rel="stylesheet"></pre></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;nav></td>
+          <td>
+            Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.
+          </td>
+          <td>
+<pre>
+&lt;nav class="menu">
+  &lt;ul>
+    &lt;li>&lt;a href="#">Inicio&lt;/a></li>
+    &lt;li>&lt;a href="#">Sobre nosotros&lt;/a></li>
+    &lt;li>&lt;a href="#">Contacto&lt;/a></li>
+  &lt;/ul>
+&lt;/nav>
+</pre>
+          </td>
+          <td>
+            <nav class="menu">
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Etiquetas de Lista</h2>
+    <p>
+      A continuación se muestra la lista de etiquetas HTML para crear listas ordenadas, desordenadas y de descripción en HTML.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;ol></td>
+          <td>
+            Permite definir listas o viñetas ordenadas (“Ordered List”), bien con numeración o alfabéticamente.
+          </td>
+          <td>
+<pre>
+Por las mañanas al levantarme:
+&lt;ol>
+  &lt;li>Me baño&lt;/li>
+  &lt;li>Me lavo los dientes&lt;/li>
+  &lt;li>Me visto&lt;/li>
+&lt;/ol>
+</pre>
+          </td>
+
+          <td>
+            Por las mañanas al levantarme:
+            <ol> 
+              <li>Me baño</li>
+              <li>Me lavo los dientes</li>
+              <li>Me visto</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;ul></td>
+          <td>
+            Crea una lista no ordenada
+          </td>
+          <td>
+<pre>
+Iré al mercado y compraré:
+&lt;ul>
+  &lt;li>Arroz&lt;/li>
+  &lt;li>Carne&lt;/li>
+  &lt;li>Habichuelas&lt;/li>
+&lt;/ul>
+</pre>
+          </td>
+          <td>
+            Iré al mercado y compraré:
+            <ul>
+              <li>Arroz</li>
+              <li>Carne</li>
+              <li>Habichuelas</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;li></td>
+          <td>
+            Declara cada uno de los elementos de una lista
+          </td>
+          <td>
+<pre>
+&lt;ul>
+  &lt;li>Arroz&lt;/li>
+&lt;/ul>
+</pre>
+          </td>
+          <td>
+            <ul>
+              <li>Arroz</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;dl></td>
+          <td>
+            Representa una lista descriptiva
+          </td>
+          <td>
+<pre>
+&lt;dl>
+  &lt;dt>Manzana&lt;/dt>
+  &lt;dd>
+    Es el fruto comestible de la especie Malus 
+    domestica, el manzano común.
+  &lt;/dd>
+&lt;/dl>
+</pre>
+          </td>
+          <td>
+            <dl>
+              <dt>Manzana</dt>
+              <dd>Es el fruto comestible de la especie Malus domestica, el manzano común.</dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;dt></td>
+          <td>
+            Especifica un término en una descripción o lista de definiciones
+          </td>
+          <td>
+<pre>
+&lt;dl>
+  &lt;dt>Serpiente&lt;/dt>
+  &lt;dd>...&lt;/dd>
+&lt;/dl>
+</pre>
+          </td>
+          <td>
+            <dl>
+              <dt>Serpiente</dt>
+              <dd>Son un tipo de reptiles que se caracterizan principalmente por la carencia de patas</dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;dd></td>
+          <td>
+            Provee detalles acerca de o la definición de un término precedente en una lista de descripciones
+          </td>
+          <td>
+<pre>
+&lt;dl>
+  &lt;dt>Piel&lt;/dt>
+  &lt;dd>Cubierta externa de los animales vertebrados&lt;/dd>
+&lt;/dl>
+</pre>
+          </td>
+          <td>
+            <dl>
+              <dt>Piel</dt>
+              <dd>Cubierta externa de los animales vertebrados</dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>6. Etiquetas de Formulario y Entrada</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;form></td>
+          <td>
+            Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.
+          </td>
+          <td>
+<pre>
+&lt;form>
+  &lt;!--Contenido del formulario-->
+&lt;/form>
+</pre>
+          </td>
+          <td>
+            <form></form>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName" >&lt;input></td>
+          <td>
+            Se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
+          </td>
+          <td>
+<pre>
+&lt;form>
+  Name: &lt;input type="text">&lt;br>
+  Password: &lt;input type="password">&lt;br>
+  &lt;input type="submit" value="Submit">
+&lt;/form>
+</pre>
+          </td>
+          <td>
+            <form>
+              Name: <input type="text"><br>
+              Password: <input type="password"><br>
+              <input type="submit" value="Submit">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;label></td>
+          <td>
+            Representa una etiqueta para un elemento en una interfaz de usuario
+          </td>
+          <td>
+<pre>
+&lt;form>
+  &lt;label for="name">Name:&lt;/label> 
+  &lt;input type="text" id="name">&lt;br>
+&lt;/form>
+</pre>
+          </td>
+          <td>
+            <form>
+              <label for="name">Name:</label> 
+              <input type="text" id="name"><br>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;textarea></td>
+          <td>
+            Representa un control para la edición mutilínea de texto sin formato
+          </td>
+          <td>
+<pre>
+&lt;textarea 
+  name="textarea" rows="5" cols="20" 
+  style="resize: none">
+  Ingresa un texo
+&lt;/textarea>
+</pre>
+          </td>
+          <td>
+            <textarea name="textarea" rows="5" cols="20" style="resize: none">Ingresa un texto</textarea>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;select></td>
+          <td>
+            Representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos &lt;option>, los cuales pueden ser agrupados por elementos &lt;optgroup>.
+          </td>
+          <td>
+<pre>
+&lt;select name="select">
+  &lt;option value="value1">Azul&lt;/option>
+  &lt;option value="value2" selected>Rojo&lt;/option>
+  &lt;option value="value3">Verde&lt;/option>
+&lt;/select>
+</pre>
+          </td>
+          <td>
+            <select name="select">
+              <option value="value1">Azul</option>
+              <option value="value2" selected>Rojo</option>
+              <option value="value3">Verde</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;optgroup></td>
+          <td>
+            Crea una agrupación de opciones dentro de un elemento &lt;select>.
+          </td>
+          <td>
+<pre>
+&lt;label for="animal-select">Elige un animal:&lt;/label>
+&lt;select id="animal-select">
+  &lt;optgroup label="Vertebrado">
+    &lt;option>Gorila&lt;/option>
+    &lt;option>Elefante&lt;/option>
+    &lt;option>Tigre&lt;/option>
+  &lt;/optgroup>
+  &lt;optgroup label="Invertebrado">
+    &lt;option>Araña&lt;/option>
+    &lt;option>Abeja&lt;/option>
+    &lt;option>Hormiga&lt;/option>
+  &lt;/optgroup>
+&lt;/select>
+</pre>
+          </td>
+          <td>
+            <label for="animal-select">Elige un animal:</label>
+            <select id="animal-select">
+                <optgroup label="Vertebrado">
+                    <option>Gorila</option>
+                    <option>Elefante</option>
+                    <option>Tigre</option>
+                </optgroup>
+                <optgroup label="Invertebrado">
+                    <option>Araña</option>
+                    <option>Abeja</option>
+                    <option>Hormiga</option>
+                </optgroup>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;option></td>
+          <td>
+            Se usa para representar un item dentro de un &lt;select>, un &lt;optgroup> (en-US) o un elemento HTML5 &lt;datalist> .
+          </td>
+          <td>
+<pre>
+  &lt;select>
+  &lt;option>Opcion 1&lt;/option>
+  &lt;/select>
+</pre>
+          </td>
+          <td>
+            <select>
+              <option>Opcion 1</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;fieldset></td>
+          <td>
+            Permite organizar en grupos los campos de un formulario
+          </td>
+          <td>
+<pre>
+&lt;fieldset>
+  &lt;legend>Información Personal&lt;/legend>
+  Nombre: &lt;input name='nombre' type='text' tabindex='1'>
+  Apellidos: &lt;input name='apellidos' type='text' tabindex='2'>
+&lt;/fieldset>
+</pre>
+          </td>
+          <td>
+            <fieldset>
+              <legend>Información Personal</legend>
+              Nombre: <input name='nombre' type='text' tabindex='1'>
+              Apellidos: <input name='apellidos' type='text' tabindex='2'>
+            </fieldset>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;legend></td>
+          <td>
+            Crea un título para un grupos los campos (&lt;fieldset>) de un formulario.
+          </td>
+          <td>
+<pre>
+&lt;fieldset>
+  &lt;legend>Edad&lt;/legend>
+  &lt;label>
+    &lt;input type="checkbox" tabindex="18" 
+    name="edad" value="20-39" /> 18-25
+  &lt;/label>
+&lt;/fieldset>
+</pre>
+          </td>
+          <td>
+            <fieldset>
+              <legend>Edad</legend>
+              <label><input type="checkbox" tabindex="18" name="edad" value="20-39" /> 18-25</label>
+            </fieldset>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;datalist></td>
+          <td>
+            Contiene un conjunto de elementos &lt;option> que representan los valores disponibles para otros controles.
+          </td>
+          <td>
+<pre>
+&lt;label>Elige tu fruta favorita:
+&lt;input list="frutas" name="miFruta" /></label>
+&lt;datalist id="frutas">
+  &lt;option value="Manzana">
+  &lt;option value="Pera">
+  &lt;option value="Lechoza">
+  &lt;option value="Chinola">
+  &lt;option value="Uva">
+  &lt;option value="Guineo">
+&lt;/datalist>
+</pre>
+          </td>
+          <td>
+<label>Elige tu fruta favorita:
+<input list="frutas" name="miFruta" /></label>
+<datalist id="frutas">
+  <option value="Manzana">
+  <option value="Pera">
+  <option value="Lechoza">
+  <option value="Chinola">
+  <option value="Uva">
+  <option value="Guineo">
+</datalist>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;button></td>
+          <td>
+            Representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar
+          </td>
+          <td>
+<pre>
+&lt;button name="button">Click Aquí :)&lt;/button>
+</pre>
+          </td>
+          <td>
+            <button name="button">Click Aquí :)</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>7. Etiquetas de Tabla</h2>
+    <p>A continuación la lista de etiquetas para tablas y sus componentes</p>
+    
+    <table style="float: right;">
+        <caption>FACTURA</caption>
+        <thead>
+          <colgroup>
+            <col span="3" style="background-color: #caf0f8;">
+          </colgroup>
+          <th>Cantidad</th>
+          <th>Producto</th>
+          <th>Precio</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>20</td>
+            <td>Galletas</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Manzana Fuji</td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Pera</td>
+            <td>200</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="2">Total</th>
+          <td>RD$500</td>
+        </tfoot>
+    </table>
+
+    <div class="ExTabla" style="float: right;">
+      <h3>Ejemplo:</h3>
+<pre>
+&lt;table style="float: right;">
+  &lt;caption>FACTURA&lt;/caption>
+  &lt;thead>
+    &lt;colgroup>
+      &lt;col span="3" style="background-color: #caf0f8;">
+    &lt;/colgroup>
+    &lt;th>Cantidad</th>
+    &lt;th>Producto</th>
+    &lt;th>Precio</th>
+  &lt;/thead>
+  &lt;tbody>
+    &lt;tr>
+      &lt;td>20</td>
+      &lt;td>Galletas</td>
+      &lt;td>100</td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>5</td>
+      &lt;td>Manzana Fuji</td>
+      &lt;td>150</td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>5</td>
+      &lt;td>Pera</td>
+      &lt;td>200</td>
+    &lt;/tr>
+  &lt;/tbody>
+  &lt;tfoot>
+    &lt;th colspan="2">Total</th>
+    &lt;td>RD$500</td>
+  &lt;/tfoot>
+&lt;/table>
+</pre>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;table></td>
+          <td>
+            Se utiliza para crear una tabla en HTML y así representar datos tabulares en una página web
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;thead></td>
+          <td>
+            Sirve para agrupar el contenido de encabezado en una tabla HTML
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;tbody></td>
+          <td>
+            Se utiliza para agrupar el contenido del cuerpo en una tabla
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;tfoot></td>
+          <td>
+            Se utiliza para agrupar el contenido del pie de página de una tabla
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;tr></td>
+          <td>
+            Representa una fila de una tabla
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;th></td>
+          <td>
+            Define una celda de encabezado en una tabla HTML
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;td></td>
+          <td>
+            Define una celda de datos estándar en la tabla
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;caption></td>
+          <td>
+            Define el titulo de tabla
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;colgroup></td>
+          <td>
+            Especifica un grupo de una o más columnas en una tabla para formatear
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;col></td>
+          <td>
+            Especifica las propiedades de columna para cada columna dentro de un elemento &lt;colgroup>.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Etiquetas Multimedia</h2>
+    <p>Lista de etiquetas HTML correspondiente a elementos multimedia como audio y video:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;audio></td>
+          <td>
+            Se usa para insertar contenido de audio en un documento HTML o XHTML
+          </td>
+          <td>
+<pre>
+&lt;audio controls>
+  &lt;source src="Ejemplos/METAMORPHOSIS.mp3" type="audio/mpeg">
+  Su navegador no soporta la etiqueta de audio.
+&lt;/audio>
+</pre>
+          </td>
+          <td>
+            <audio controls>
+              <source src="Ejemplos/METAMORPHOSIS.mp3" type="audio/mpeg">
+            Su navegador no soporta la etiqueta de audio.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;video></td>
+          <td>
+            Se utiliza para incrustar vídeos en un documento HTML o XHTML
+          </td>
+          <td>
+<pre>
+&lt;video width="300" height="150" controls>
+  &lt;source src="Ejemplos/METAMORPHOSIS.mp4" type="video/mp4">
+    La etiqueta de video no es compatible con su navegador.
+&lt;/video>
+</pre>
+          </td>
+          <td>
+            <video width="300" height="150" controls>
+              <source src="Ejemplos/METAMORPHOSIS.mp4" type="video/mp4">
+              La etiqueta de video no es compatible con su navegador.
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;track></td>
+          <td>
+            Se utiliza como elemento hijo de los elementos multimedia, &lt;audio> y &lt;video>. Le permite especificar pistas de texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar subtítulos automáticamente
+          </td>
+          <td>
+<pre>
+&lt;video controls="controls" poster="https://s3-us-west-2.amazonaws.com
+                    /s.cdpn.io/122116/2010-0927-KMOV-News-4.png" width="300" 
+                    height="150" crossorigin="anonymous">
+  &lt;source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122116
+                  /2010-0927-KMOV-News-4.mp4" type="video/mp4">
+  &lt;track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122116
+                /2010-0518-KMOV-News-4_3.vtt" 
+            kind="subtitles" srclang="en" label="Testola" default>
+&lt;/video>
+</pre>
+          </td>
+          <td>
+            <video controls="controls" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122116/2010-0927-KMOV-News-4.png" width="300" height="150" crossorigin="anonymous">
+              <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122116/2010-0927-KMOV-News-4.mp4" type="video/mp4">
+              <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122116/2010-0518-KMOV-News-4_3.vtt" kind="subtitles" srclang="en" label="Testola" default>
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;source></td>
+          <td>
+            Especifica recursos de medios múltiples para los elementos &lt;picture>, &lt;audio>, o &lt;video>
+          </td>
+          <td>
+<pre>
+  &lt;source src="Ejemplos/METAMORPHOSIS.mp3"> 
+</pre>
+          </td>
+          <td>
+            <source src="Ejemplos/METAMORPHOSIS.mp3">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>9. Etiquetas Generales</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th width ="350">Descripcion</th>
+          <th>Ejemplo</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="etiquetaName">&lt;div></td>
+          <td>
+            div de "division". Sirve para crear secciones o agrupar contenidos
+          </td>
+          <td>
+<pre>
+&lt;div class="myDiv">
+  &lt;!--Contenido del div-->
+&lt;/div>
+</pre>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;span></td>
+          <td>
+            Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea
+          </td>
+          <td>
+<pre>
+&lt;p>
+  Me compré un coche &lt;span style="color:red">Rojo&lt;/span>.
+&lt;/p>
+</pre>
+          </td>
+          <td>
+            <p>Me compré un coche <span style="color:red">Rojo</span>.</p>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;header></td>
+          <td>
+            Representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes
+          </td>
+          <td>
+<pre>
+&lt;header>
+  &lt;h1>Titulo&lt;/h1>
+  &lt;p>Publicado por John Doe&lt;/p>
+  &lt;p>Informacion adicional aqui...&lt;/p>
+&lt;/header>
+</pre>
+          </td>
+          <td>
+            <header>
+              <h1>Titulo</h1>
+              <p>Publicado por John Doe</p>
+              <p>Informacion adicional aqui...</p>
+            </header>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;main></td>
+          <td>
+            Representa el contenido principal del <body> de un documento o aplicación
+          </td>
+          <td>
+<pre>
+&lt;main>
+  &lt;h2>Navegadores mas Populares&lt;/h2>
+  &lt;p>Chrome, Firefox, and Edge son los 
+    navegadores mas usados hoy en dia.&lt;/p>
+
+  &lt;article>
+    &lt;h3>Microsoft Edge&lt;/h3>
+    &lt;p>Microsoft Edge Es un navegador desarrollado 
+      por microsoft en 2015.&lt;/p>
+  &lt;/article>
+&lt;/main>
+</pre>
+          </td>
+          <td>
+            <main>
+              <h2>Navegadores mas Populares</h2>
+              <p>Chrome, Firefox, and Edge son los navegadores mas usados hoy en dia.</p>
+            
+              <article>
+                <h3>Microsoft Edge</h3>
+                <p>Microsoft Edge Es un navegador desarrollado por microsoft en 2015.</p>
+              </article>
+            </main>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;footer></td>
+          <td>
+            Representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección
+          </td>
+          <td>   
+<pre>
+&lt;footer>
+  &lt;!--Contenido footer-->
+&lt;/footer>
+</pre>
+          </td>
+          <td>
+            <footer>
+              <!--Contenido footer-->
+            </footer>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;article></td>
+          <td>
+            Especifica contenido independiente y autónomo. Un artículo debe tener sentido por sí mismo y debe ser posible distribuirlo independientemente del resto del sitio
+          </td>
+          <td>
+<pre>
+&lt;article>
+  &lt;h2>Google Chrome&lt;/h2>
+  &lt;p>Google Chrome es un navegador web desarrollado por Google, 
+  Lanzado en el 2008.Chrome es actualmente el navegador más 
+  popular del mundo.&lt;/p>
+&lt;/article>
+</pre>
+          </td>
+          <td>
+            <article>
+              <h2>Google Chrome</h2>
+              <p>Google Chrome es un navegador web desarrollado por Google, Lanzado en el 2008. Chrome es actualmente el navegador más popular del mundo.</p>
+            </article>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;section></td>
+          <td>
+            Representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema
+          </td>
+          <td>
+<pre>
+&lt;section>
+  &lt;h2>WWF History&lt;/h2>
+  &lt;p>WWF fue fundada en 1961.&lt;/p>
+&lt;/section>
+</pre>
+          </td>
+          <td>
+            <section>
+              <h2>WWF History</h2>
+              <p>WWF fue fundada en 1961.</p>
+            </section>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;details></td>
+          <td>
+            Especifica detalles adicionales, Se utiliza para crear un widget interactivo que el usuario puede abrir y cerrar. De forma predeterminada, el widget está cerrado. Cuando está abierto, se expande y muestra el contenido que contiene.
+          </td>
+          <td>
+<pre>
+&lt;details>
+  &lt;summary>Mas detalles&lt;/summary>
+  &lt;p>Aqui hay mas detalles :)&lt;/p>
+&lt;/details>
+</pre>
+          </td>
+          <td>
+            <details>
+              <summary>Mas detalles</summary>
+              <p>Aqui hay mas detalles :)</p>
+            </details>
+          </td>
+        </tr>
+        <tr>
+          <td id="etiquetaName">&lt;summary></td>
+          <td>
+            Define un encabezado visible para el elemento &lt;details>. Se puede hacer clic en el encabezado para ver/ocultar los detalles
+          </td>
+          <td>
+<pre>
+&lt;details>
+  &lt;summary>click aqui&lt;/summary>
+  &lt;p>...&lt;/p>
+&lt;/details>
+</pre>
+          </td>
+          <td>
+            <details>
+              <summary>click aqui</summary>
+              <p>...</p>
+            </details>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

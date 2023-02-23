@@ -1,0 +1,37 @@
+*{
+  font-family: 'Segoe UI';
+}
+
+body{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+table,th,td{
+  border: 1px solid #999999;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+td{
+  text-align: left;
+}
+#etiquetaName{
+  color: #f94449;
+}
+th{
+  background-color: #03045e;
+  color: white;
+  text-align: left;
+}
+
+
+.ExTabla{
+  font-size: 12px;
+  margin-right: 8%;
+  background-color: #03045e;
+  color: white;
+  padding: 24px;
+  border-radius: 10px;
+}
