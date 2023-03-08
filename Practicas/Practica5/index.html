@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validar Cedula</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h1>Comprueba si la cédula es válida</h1>
+    <h2>Ingrese su cédula</h2>
+    <input
+      type="text"
+      id="ced"
+      placeholder="Cedula sin guiones"
+      maxlength="11"
+    /><br />
+    <button onclick="validar()">Comprobar</button> <br />
+    <span id="salidaResultado"></span>
+    <script src="validador.js"></script>
+  </body>
+</html>
