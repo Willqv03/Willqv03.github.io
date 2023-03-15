@@ -45,9 +45,9 @@ function validar() {
   resultado = ((sumaIndiceImpar + sumaIndicePar) * 9) % 10;
 
   if (resultado == digitoVerificador && condicion) {
-    result.innerText = "La cedula ingresada es valida :)";
+    result.innerText = "La cédula ingresada es válida :)";
   } else {
-    result.innerText = "La cedula ingresada es invalida";
+    result.innerText = "La cédula ingresada es inválida :(";
   }
 }
 
