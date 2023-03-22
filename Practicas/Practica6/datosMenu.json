@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Cuentas",
+        "link": "#",
+        "submenu": [
+            {
+                "nombre": "Cuenta de Ahorro",
+                "link": "#",
+                "submenu": null
+            }
+        ]
+    },
+    {
+        "nombre": "Inversiones",
+        "link": "#",
+        "submenu": [
+            {
+                "nombre": "Cuenta de Ahorro",
+                "link": "#",
+                "submenu": null
+            }
+        ]
+    },
+
+    {
+        "nombre": "Tarjetas",
+        "link": "#",
+        "submenu": [
+            {
+                "nombre": "Tarjeta Mastercard",
+                "link": "#",
+                "submenu": null
+            },
+
+            {
+                "nombre": "Visa Classic - Mastercard Standard",
+                "link": "#",
+                "submenu": null
+            }
+        ]
+    },
+    {
+        "nombre": "Prestamos",
+        "link": "#",
+        "submenu": null
+    },
+    {
+        "nombre": "Seguros",
+        "link": "#",
+        "submenu": null
+    },
+    {
+        "nombre": "Remesas, Impuestos y Servicios",
+        "link": "#",
+        "submenu": null
+    }
+]
