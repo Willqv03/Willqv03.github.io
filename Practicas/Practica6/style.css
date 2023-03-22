@@ -5,6 +5,7 @@
     font-family: sans-serif;
     text-align: center;
 }
+
 #nav{
     margin: auto;
     width: 1500px;
@@ -12,6 +13,7 @@
     margin-right: 14%;
     padding-bottom: 50px;
 }
+
 ul, ol{
     list-style: none;
 }
