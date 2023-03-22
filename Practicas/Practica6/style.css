@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+#nav{
+    margin: auto;
+    width: 1500px;
+    margin-left: 15%;
+    margin-right: 14%;
+    padding-bottom: 50px;
+}
+ul, ol{
+    list-style: none;
+}
+
+#menu-horizontal li a{
+    background-color: #00aef0;
+    color: white;
+    text-decoration: none;
+    padding:20px 30px;
+    display:block;
+    text-align: justify;
+}
+
+#menu-horizontal li a:hover{
+    background-color: white;
+    color: #00aef0;
+}
+
+#menu-horizontal > li{
+    float:left;
+
+}
+
+#menu-horizontal li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+#menu-horizontal li:hover > ul{
+    display: block;
+}
+
+#menu-horizontal li ul li{
+    position: relative;
+}
+#menu-horizontal li ul li ul{
+    right: -140px;
+    top:50%;
+
+}
+
+.parte-textual h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #264e72;
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.parte-textual h2{
+    color: #264e72;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.parte-textual h1, .parte-textual h2{
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.parte-textual p{
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.title{
+    padding: 15px;
+    color: #19a5f0;
+    text-decoration: none; 
+}
+
+
+.imgBanco{
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.parte-textual{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 500px;
+}
+.lbl-menu{
+    background: white;
+}
+
+.lbl-menu label{
+    display: inline-block;
+    padding: 20px;
+    color: #bdc0c4;
+    border-bottom: 3px solid #bdc0c4;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.lbl-menu label:hover{
+    color: #00aef0;
+    border-bottom: 3px solid #00aef0;
+}
+
+.content{
+    position: relative;
+}
+.content div{
+    position: absolute;
+    align-items: center;
+    line-height: 1.8;
+    transition: all 400ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background: #fff;
+    padding-bottom: 40px;
+}
+
+#radio1,#radio2,#radio3,#radio4{
+    display: none;
+}
+
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.pie{
+    width: 100%;
+    background-color: #264e72;
+}
+
+.pie .g1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px 0px;
+}
+.pie .g1 .box figure{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie .g1 .box figure{
+    width: 250px;
+}
+.pie .g1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pie .g1 .box .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.box figure img{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.pie .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.bloque{
+    margin-left: 250px;
+    margin-right: 600px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.definicion p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.beneficios h2, .definicion h2{
+    color:#264e72;
+    font-weight: 600;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.beneficios * , .definicion *{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.beneficios p{
+    padding-bottom: 50px;
+}
+
+.beneficios ul{
+    padding-left: 20px;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.1;
+}

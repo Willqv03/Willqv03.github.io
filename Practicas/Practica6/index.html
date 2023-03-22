@@ -4,10 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Practica 6</title>
 </head>
 <body>
-    <button id="boton">hola</button>
+    <nav class="imgBanco">
+        <a href="./index.html"><img src="./Imagenes/logoBanreservas.png"></a>
+    </nav>
+    <nav id="nav">
+    </nav>
+    <br>
+    <img src="Imagenes/Slide1.jpg" alt="" width="100%" height="500px">
+    <div class="parte-textual">
+      <h1>Necesidades</h1>
+      <div class="lbl-menu">
+        <label for="radio1">
+          <img src="Imagenes/mueble.svg" alt="" width="30px" height="30px"><br>
+          Amuebla tu casa
+        </label>
+        <label for="radio2" class="rad1">
+          <img src="Imagenes/car.svg" alt="" width="30px" height="30px"><br>
+          Compra el carro que deseas
+        </label>
+        <label for="radio3" class="rad2">
+          <img src="Imagenes/house.svg" alt="" width="30px" height="30px"><br>
+          Compra o remodela tu casa
+        </label>
+        <label for="radio4" class="rad3">
+          <img src="Imagenes/leaf.svg" alt="" width="30px" height="30px"><br>
+          Construye tu patrimonio
+        </label>
+      </div>
+
+      <div class="content">
+        <input type="radio" name="radio" id="radio1" checked>
+        <div class="tab1">
+          <h2>Con nuestras soluciones financieras puedes amueblar tu casa como prefieras</h2>
+          <p>Equipa y decora tu casa como lo deseas, con las facilidades de los productos financieros que tenemos para ti!</p>
+        </div>
+        <input type="radio" name="radio" id="radio2">
+        <div class="tab2">
+          <h2>Nuestros productos financieros te montan en el vehículo que deseas.</h2>
+          <p>¡Si lo quieres, lo puedes comprar! En Banreservas te ofrecemos opciones para que adquieras el vehículo que anhelas con tasas y condiciones acorde a tus necesidades.</p>
+        </div>
+        <input type="radio" name="radio" id="radio3">
+        <div class="tab3">
+          <h2>Nuestros productos te brindan la oportunidad de tener tu casa como la sueñas.</h2>
+          <p>¡Haz realidad el sueño de tener tu casa propia o remodelar la que tienes, con los productos que tenemos para brindarte, acorde a tus necesidades!</p>
+        </div>
+        <input type="radio" name="radio" id="radio4">
+        <div class="tab4">
+          <h2>Tenemos para ti las herramientas para administrar tu patrimonio.</h2>
+          <p>¡Invierte tu dinero de manera segura! Administra tus fondos con los productos y servicios especializados que tenemos para ayudarte.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="pie">
+      <div class="g1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="Imagenes/logo-footer.png" alt="Logo Banreservas">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>CONTACTANOS</h2>
+            <div class="red-social">
+              <a href="https://www.facebook.com/BanreservasRD" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/BanreservasRD" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com/banreservasrd/" class="fa fa-instagram"></a>
+              <a href="https://www.youtube.com/channel/UCEld1z_ODRADjhBvjYZodgA" class="fa fa-youtube"></a>
+            </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2022 <b>Willy Q.V</b> - Todos los Derechos Reservados</small>
+      </div>
+    </footer>
     <script src="generaMenu.js"></script>
 </body>
 </html>
