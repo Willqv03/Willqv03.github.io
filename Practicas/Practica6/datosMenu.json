@@ -2,95 +2,127 @@
     {
         "id": 1,
         "nombre": "Cuentas",
-        "link": "#",
-        "submenu": [
-            {
-                "id": 11,
-                "nombre": "Cuenta de Ahorro",
-                "link": "./CuentaAhorro.html",
-                "submenu": null
-            }
-        ]
+        "link":"#",
+        "padre": null
+    },
+    {
+        "id": 11,
+        "nombre": "Cuenta de Ahorro",
+        "link":"#",
+        "padre": 1
     },
     {
         "id": 2,
         "nombre": "Inversiones",
-        "link": "#",
-        "submenu": [
-            {
-                "id": 21,
-                "nombre": "Certificado Financiero",
-                "link": "./CertificadoFinanciero.html",
-                "submenu": null
-            }
-        ]
+        "link":"#",
+        "padre": null
     },
-
+    {
+        "id": 21,
+        "nombre": "Certificado Financiero",
+        "link":"#",
+        "padre": 2
+    },
     {
         "id": 3,
         "nombre": "Tarjetas",
-        "link": "#",
-        "submenu": [
-            {
-                "id": 31,
-                "nombre": "Tarjeta Mastercard",
-                "link": "./Mastercard.html",
-                "submenu": null
-            },
-
-            {
-                "id": 32,
-                "nombre": "Visa Classic - Mastercard Standard",
-                "link": "./VisaMastercard.html",
-                "submenu": null
-            }
-        ]
+        "link":"#",
+        "padre": null
+    },
+    {
+        "id": 31,
+        "nombre": "Tarjeta Mastercard",
+        "link":"#",
+        "padre": 3
+    },
+    {
+        "id": 32,
+        "nombre": "Visa Classic",
+        "link":"#",
+        "padre": 3
+    },
+    {
+        "id": 321,
+        "nombre": "Visa Classic",
+        "link":"#",
+        "padre": 32
     },
     {
         "id": 4,
         "nombre": "Prestamos",
-        "link": "#",
-        "submenu": null
+        "link":"#",
+        "padre": null
     },
     {
         "id": 5,
         "nombre": "Seguros",
-        "link": "#",
-        "submenu": null
+        "link":"#",
+        "padre": null
     },
     {
         "id": 6,
         "nombre": "Remesas, Impuestos y Servicios",
-        "link": "#",
-        "submenu": null
+        "link":"#",
+        "padre": null
     },
     {
         "id": 7,
-        "nombre": "Cuentas2",
-        "link": "#",
-        "submenu": [
-            {
-                "id": 71,
-                "nombre": "Cuenta de Ahorro",
-                "link": "#",
-                "submenu": null
-            },
-            {
-                "id": 72,
-                "nombre": "Cuenta de Ahorro2",
-                "link": "#",
-                "submenu": [{
-                    "id": 721,
-                    "nombre": "nombre",
-                    "link": "#",
-                    "submenu": [{
-                        "id": 7211,
-                        "nombre": "nombre",
-                        "link": "#",
-                        "submenu": null
-                    }]
-                }]
-            }
-        ]
+        "nombre": "Prueba",
+        "link":"#",
+        "padre": null
+    },
+    {
+        "id": 71,
+        "nombre": "Opcion1",
+        "link":"#",
+        "padre": 7
+    },
+    {
+        "id": 72,
+        "nombre": "Opcion2",
+        "link":"#",
+        "padre": 7
+    },
+    {
+        "id": 73,
+        "nombre": "Opcion3",
+        "link":"#",
+        "padre": 7
+    },
+    {
+        "id": 721,
+        "nombre": "Opcion1",
+        "link":"#",
+        "padre": 72
+    },
+    {
+        "id": 722,
+        "nombre": "Opcion2",
+        "link":"#",
+        "padre": 72
+    },
+    {
+        "id": 723,
+        "nombre": "Opcion3",
+        "link":"#",
+        "padre": 72
+    },
+    {
+        "id": 7211,
+        "nombre": "Opcion1",
+        "link":"#",
+        "padre": 721
+    },
+    {
+        "id": 7212,
+        "nombre": "Opcion2",
+        "link":"#",
+        "padre": 721
+    },
+    {
+        "id": 72121,
+        "nombre": "Opcion1",
+        "link":"#",
+        "padre": 7212
     }
 ]
