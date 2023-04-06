@@ -47,12 +47,12 @@ function generarSubmenu(submenu,menu,json,clase){
     enlace.setAttribute('href', submenu.link);
     enlace.textContent = submenu.nombre;
     registro.appendChild(enlace);
-    let prueba = 0;
+    let prueba = true;
     let ul = document.createElement('ul');;
     for (let pos = 0; pos < json.length; pos++) {
         if (submenu.id == json[pos].padre) { 
-            prueba++;
-            if(prueba == 1){
+            if(prueba){
+                prueba=false;
                 registro.appendChild(ul); 
                 ul.appendChild(generarSubmenu(json[pos],ul, json,"submenu2"));   
             }else{
