@@ -409,7 +409,12 @@ function mostrarDatos(paciente,num){
 }
 
 function cargarDatos(){
-  pacientes = JSON.parse(localStorage.getItem("pacientes"));
+  
+  if(localStorage.getItem("pacientes") == null){
+    pacientes = [];
+  }else{
+    pacientes = JSON.parse(localStorage.getItem("pacientes"));
+  }
   var html = "";
 
   pacientes.forEach((paciente, index) =>{
