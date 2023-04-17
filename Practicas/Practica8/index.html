@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir contacto</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="contenedor">
+    <h1>FORMULARIO CONTACTO</h1>
+    <form>
+      <div class="input">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+      </div>
+      <div class="input">
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono" id="telefono"> 
+      </div>
+      <div class="input">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo">   
+      </div>
+    </form>
+    <div class="boton">
+      <button type="button" onclick="generarqr()">Generar QR</button>
+    </div>
+    
+    <img class="qr-img" alt="">
+
+    <script src="funcion.js"></script>
+  </div>
+</body>
+</html>
