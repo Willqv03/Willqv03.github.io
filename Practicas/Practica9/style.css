@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Tilt+Neon&display=swap');
+:root{
+    --primary:#264e72;
+    --secondary: #bfc0c0;
+    --white: #fff;
+    --text-clr: #5b6475;
+    --header-clr: #25273d;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    font-family: 'Open Sans',sans-serif;
+}
+body{
+    background-color: #264e72;
+    background-image: url("rainywallpp.gif");
+    background-size: 110%;
+    color: var(--text-clr);
+    font-size: 16px;
+    position: relative;
+}
+
+.contenedor{
+    width: 750px;
+    max-width: 100%;
+    background: white;
+    margin: 100px auto 0;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .contenedor form .input{
+    width: 350px;
+    margin: 0 auto 20px;
+  }
+  
+  .contenedor form .input:last-child{
+    margin-bottom: 0;
+  }
+  
+  .contenedor form .input label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contenedor form .input input{
+    border: 2px solid var(--secondary);
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.5s ease;
+  }
+  h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+  }
+  .contenedor .boton button{
+    border: 0;
+    padding: 12px 15px;
+    background: var(--primary);
+    color: var(--white);
+    width: 120px;
+    display: flex;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .boton button:hover{
+    background: #4e7ca4;
+  }
+
+.botonAgregar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-color: transparent;
+    color: var(--white);
+    background: var(--primary);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.botonAgregar:hover{
+    background: var(--next-btn-hover);
+}
+
+.eliminar_btn{
+    color: var(--white);
+    background: red;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.eliminar_btn:hover{
+    background:rgb(255, 74, 74);
+}
+
+.content{
+    margin-top: 50px;
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+
+canvas{
+    max-width: 100%;
+}
+
+.estudiante{
+    margin-top: 50px;
+}
