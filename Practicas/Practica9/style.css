@@ -17,7 +17,7 @@
 }
 body{
     background-color: #264e72;
-    background-image: url("rainywallpp.gif");
+    background-image: url("wpp.webp");
     background-size: 110%;
     color: var(--text-clr);
     font-size: 16px;
@@ -45,10 +45,11 @@ body{
   
   .contenedor form .input label{
     display: block;
+    margin-top: 20px;
     margin-bottom: 5px;
   }
   
-  .contenedor form .input input{
+  .contenedor form .input input, select{
     border: 2px solid var(--secondary);
     border-radius: 3px;
     padding: 10px;
@@ -66,7 +67,7 @@ body{
     padding: 12px 15px;
     background: var(--primary);
     color: var(--white);
-    width: 120px;
+    width: 300px;
     display: flex;
     font-size: 16px;
     border-radius: 3px;
@@ -96,7 +97,7 @@ body{
     margin-top: 50px;
 }
 .botonAgregar:hover{
-    background: var(--next-btn-hover);
+    background: #4e7ca4;
 }
 
 .eliminar_btn{

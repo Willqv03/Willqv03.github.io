@@ -22,11 +22,24 @@
                 <input type="number" name="nota" id="nota"> 
             </div>
         </div>
+
+        <div class="input">
+          <label for="tipo">Tipo de Grafica</label>
+          <select name = 'tipo' id = 'tipo'>
+            <option></option>
+            <option value = 'bar'>Barras</option>
+            <option value = 'pie'>Circular</option>
+            <option value = 'doughnut'>Dona</option>
+            <option value = 'line'>Linea</option>
+            <option value = 'polarArea'>Area Polar</option>
+          </select>
+        </div>
     </form>
     <button type="button" class="botonAgregar" onclick="addEstudiante()">+</button><br><br>
 
+
     <div class="boton">
-      <button type="button" onclick="generarGrafica()">Enviar</button>
+      <button type="button" onclick="generarGrafica()">Enviar - (Generar Gráfica)</button>
     </div>
     
     <section class="content">
