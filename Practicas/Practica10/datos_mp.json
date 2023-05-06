@@ -1,0 +1,50 @@
+[
+    {
+        "id": 2,
+        "nombre": "Practica 2",
+        "link":"./Practicas/Practica2/index.html",
+        "padre": null
+    },
+    {
+        "id": 3,
+        "nombre": "Practica 3",
+        "link":"./Practicas/Practica3/index.html",
+        "padre": null
+    },
+    {
+        "id": 4,
+        "nombre": "Practica 4",
+        "link":"./Practicas/Practica4/index.html",
+        "padre": null
+    },
+    {
+        "id": 5,
+        "nombre": "Practica 5",
+        "link":"./Practicas/Practica5/index.html",
+        "padre": null
+    },
+    {
+        "id": 6,
+        "nombre": "Practica 6",
+        "link":"./Practicas/Practica6/index.html",
+        "padre": null
+    },
+    {
+        "id": 7,
+        "nombre": "Practica 7",
+        "link":"./Practicas/Practica7/index.html",
+        "padre": null
+    },
+    {
+        "id": 8,
+        "nombre": "Practica 8",
+        "link":"./Practicas/Practica8/index.html",
+        "padre": null
+    },
+    {
+        "id": 9,
+        "nombre": "Practica 9",
+        "link":"./Practicas/Practica9/index.html",
+        "padre": null
+    }
+]

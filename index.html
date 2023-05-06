@@ -14,20 +14,28 @@
         p{
             font-size: 20px;
         }
-        button{
+        .menu{
+            display: inline-block;
+            list-style: none;
+        }
+        .menu li{
             background-color: #03045e;
             border-radius: 30px;
-            color: white;
             padding: 20px;
-            width: 150px;
+            width: 100px;
             margin: 10px;
             cursor: pointer;
         }
-        button:hover{
-            border: 2px solid #03045e;
-            background-color: white;
-            color: #03045e;
+
+        .menu li a {
+            color: white;
+            text-decoration: none;
         }
+
+        ul li:hover{
+            background-color: #050888;
+        }
+
     </style>
 </head>
 <body>
@@ -42,12 +50,7 @@
         <p><b>Estudiante:</b> Willy Quezada Vasquez - <b>Matrícula:</b> 100615312</p>
     </div>
     <br><br>
-    <button type="button"  onclick="location.href='Practicas/Practica2/index.html'">Practica 2</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica3/index.html'">Practica 3</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica4/index.html'">Practica 4</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica5/index.html'">Practica 5</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica6/index.html'">Practica 6</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica7/index.html'">Practica 7</button> <br>
-    <button type="button"  onclick="location.href='Practicas/Practica8/index.html'">Practica 8</button> <br>
+    <div id="menu"></div>
+    <script src="./Practicas/Practica10/menuPrincipal.js"></script>
 </body>
 </html>
