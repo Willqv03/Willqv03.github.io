@@ -50,7 +50,7 @@
     {
         "id": 10,
         "nombre": "Practica 10",
-        "link":"http://hospitalform.42web.io",
+        "link":"http://hospitalform.42web.io/",
         "padre": null
     }
 ]
