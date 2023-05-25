@@ -46,5 +46,11 @@
         "nombre": "Practica 9",
         "link":"./Practicas/Practica9/index.html",
         "padre": null
+    },
+    {
+        "id": 10,
+        "nombre": "Practica 10",
+        "link":"hospitalform.42web.io",
+        "padre": null
     }
 ]
